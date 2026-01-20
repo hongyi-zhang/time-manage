@@ -1,0 +1,28 @@
+{
+  "name": "time-manage",
+  "private": true,
+  "version": "0.1.0",
+  "description": "WeChat Mini Program time management app built with Taro + React + CloudBase",
+  "scripts": {
+    "dev:weapp": "taro build --type weapp --watch",
+    "build:weapp": "taro build --type weapp",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@tarojs/components": "^3.6.0",
+    "@tarojs/react": "^3.6.0",
+    "@tarojs/runtime": "^3.6.0",
+    "@tarojs/taro": "^3.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tarojs/cli": "^3.6.0",
+    "@tarojs/webpack5-runner": "^3.6.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}
+
